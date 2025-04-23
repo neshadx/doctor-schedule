@@ -29,7 +29,7 @@ const SuccessSection = () => {
   ];
 
   return (
-    <section className="bg-white py-16 text-center">
+    <section className="bg-[#E7E9ED] py-16 text-center">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-4">
           We Provide Best Medical Services

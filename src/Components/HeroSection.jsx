@@ -13,7 +13,7 @@ const HeroSection = () => {
         </h1>
 
        
-        <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+        <p className="text-base md:text-lg text-gray-600  mx-auto mb-8">
           Our platform connects you with verified, experienced doctors across various specialties —
           all at your convenience. Whether it’s a routine checkup or urgent consultation, book
           appointments in minutes and receive quality care you can trust.
