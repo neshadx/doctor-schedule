@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
         
         <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
-          Dependable Care, Backed by Trusted Professionals.
+          Dependable Care, Backed by Trusted <br /> Professionals.
         </h1>
 
        
@@ -20,13 +20,13 @@ const HeroSection = () => {
         </p>
 
         
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-xl mx-auto mb-12">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-2xl mx-auto mb-12">
           <input
             type="text"
             placeholder="Search any doctor..."
-            className="w-full px-6 py-3 rounded-full border shadow outline-none"
+            className="w-full px-6 py-2 border-[#E7E9ED] rounded-full shadow outline-none bg-white"
           />
-          <button className="w-2xs bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full transition-all">
+          <button className="w-2xs bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-all cursor-pointer">
             Search Now
           </button>
         </div>
