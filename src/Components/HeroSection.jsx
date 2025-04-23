@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <section
-      className="border rounded-4xl m-8 border-gray-300 bg-gradient-to-t from-white to-gray-200"
+      className="border rounded-4xl m-8 border-white bg-gradient-to-t from-white to-gray-200"
     >
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
         
@@ -37,12 +37,12 @@ const HeroSection = () => {
       
         <div className="flex flex-col md:flex-row justify-center gap-6">
           <img
-            src="https://i.ibb.co.com/Fb8R18bs/two-professional-confident-doctor-shaking-hands-while-standing-clinic-teamwork-caucasian-medical-mee.jpg"
+            src="https://i.ibb.co.com/TM2TVYGq/p-001myambulance2019pxd287igyd9ihigxa7ao.jpg"
             alt="Doctor 1"
             className="rounded-2xl shadow-md w-full md:w-1/2 object-cover"
           />
           <img
-            src="https://i.ibb.co.com/FLCqSTB5/banner-img-1.png"
+            src="https://i.ibb.co.com/zhHZXFgs/Screenshot-19.png"
             alt="Doctor 2"
             className="rounded-2xl shadow-md w-full md:w-1/2 object-cover"
           />

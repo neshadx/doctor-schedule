@@ -8,7 +8,7 @@ const Navbar = () => {
       : "hover:text-primary";
 
   return (
-    <div className="bg-base-200 shadow">
+    <div className="bg-[#E7E9ED]">
       <div className="navbar max-w-7xl mx-auto px-4 relative justify-between">
         {/* Left: Logo */}
         <div className="flex items-center gap-2">
