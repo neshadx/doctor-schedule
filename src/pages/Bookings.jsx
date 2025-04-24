@@ -169,7 +169,7 @@ const Bookings = () => {
 
                 <button
                   onClick={() => handleCancelClick(doctor.id)}
-                  className="mt-6 w-full text-center text-sm font-semibold text-[#FF0000] border border-red-400 rounded-full py-2 hover:bg-red-600 hover:text-white transition duration-200 cursor-pointer"
+                  className="mt-6 w-full text-center text-sm font-semibold text-[#FF0000] border border-red-400 rounded-full py-2 hover:bg-red-400 hover:text-white transition duration-200 cursor-pointer"
                 >
                   Cancel Appointment
                 </button>
