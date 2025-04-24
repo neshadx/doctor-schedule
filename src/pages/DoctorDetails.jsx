@@ -108,24 +108,36 @@ const DoctorDetails = () => {
 
     <p className="mb-2 text-gray-800 font-medium">
       Working At <br />
-      <span className="font-bold">{doctor.work}</span>
+      <span className="font-bold ">{doctor.work}</span>
     </p>
 
-    <div className="flex items-center justify-center md:justify-start text-gray-600 text-sm gap-1 mb-4 border-t border-dashed pt-4">
+    <div className="flex items-center justify-center md:justify-start text-gray-600 text-sm gap-1 mb-4 mt-4 border-t border-b border-dashed pt-2 pb-2">
       <span>Ⓡ</span>
-      <span>Reg No : {doctor.registration}</span>
+      <span >Reg No : {doctor.registration}</span>
     </div>
 
-    <p className="font-semibold mb-1">Availability</p>
-    <div className="flex flex-wrap gap-2 justify-center md:justify-start mb-4">
-      {doctor.days?.map((day, index) => (
+    <p className="font-semibold mb-1 flex flex-wrap items-center gap-2 justify-center md:justify-start">Availability {doctor.availliblity?.split(',').map((day, index) => (
         <span
           key={index}
-          className="bg-yellow-100 text-gray-700 text-sm px-4 py-1 rounded-full"
+          className="bg-yellow-100 text-gray-700 text-sm px-4 py-1 rounded-full border border-yellow-300 "
         >
-          {day}
+          {day.trim()}
         </span>
-      ))}
+      ))}</p>
+
+{/* <div className="flex flex-wrap items-center gap-2 justify-center md:justify-start ">
+  <p className="font-semibold">Availability:</p>
+  {doctor.availliblity?.split(',').map((day, index) => (
+    <span
+      key={index}
+      className="bg-yellow-100 text-gray-700 text-sm px-4 py-1 rounded-full border border-yellow-300"
+    >
+      {day.trim()}
+    </span>
+  ))}
+</div> */}
+    <div className="flex flex-wrap gap-2 justify-center md:justify-start mb-4">
+      
     </div>
 
     <p className="text-sm text-gray-700">
@@ -164,7 +176,7 @@ const DoctorDetails = () => {
 
   <button
     onClick={handleBooking}
-    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-full text-center transition-all duration-200"
+    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded-full text-center transition-all duration-200 cursor-pointer"
   >
     Book Appointment Now
   </button>

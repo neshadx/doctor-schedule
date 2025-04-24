@@ -122,12 +122,12 @@ const Bookings = () => {
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
           You Have Not Booked Any Appointment Yet
         </h1>
-        <p className="max-w-2xl text-base md:text-lg text-gray-700 mb-6">
-          It looks like you haven’t scheduled any appointments yet. Don’t worry — finding the right doctor is quick and easy. Explore our list of verified specialists and book your consultation in just a few clicks. Your health journey starts here.
+        <p className=" text-base md:text-lg text-gray-700 mb-6">
+        You haven’t set up an appointment yet - no stress! Finding the perfect doctor is fast and effortless. Check out our trusted specialists and book your visit in just a few clicks. Your wellness journey starts today.
         </p>
         <Link
           to="/"
-          className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-md shadow-md transition"
+          className="bg-[#155DFC] hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-md shadow-md transition"
         >
           Book An Appointment
         </Link>
@@ -169,7 +169,7 @@ const Bookings = () => {
 
                 <button
                   onClick={() => handleCancelClick(doctor.id)}
-                  className="mt-6 w-full text-center text-sm font-semibold text-red-600 border border-red-400 rounded-full py-2 hover:bg-red-600 hover:text-white transition duration-200 cursor-pointer"
+                  className="mt-6 w-full text-center text-sm font-semibold text-[#FF0000] border border-red-400 rounded-full py-2 hover:bg-red-600 hover:text-white transition duration-200 cursor-pointer"
                 >
                   Cancel Appointment
                 </button>

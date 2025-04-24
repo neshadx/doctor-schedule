@@ -4,25 +4,25 @@ const SuccessSection = () => {
   const stats = [
     {
       id: 1,
-      icon: "https://i.ibb.co.com/r2nSFD2z/success-doctor.png",
+      icon: "https://i.ibb.co.com/DHLJq1J0/medical-team-2.png",
       number: 300,
       label: "Total Doctors"
     },
     {
       id: 2,
-      icon: "https://i.ibb.co.com/zTSfMkqR/success-review.png",
+      icon: "https://i.ibb.co.com/DPHYqpvp/satisfaction.png",
       number: 500,
       label: "Total Reviews"
     },
     {
       id: 3,
-      icon: "https://i.ibb.co.com/fjS8PvL/success-patients.png",
+      icon: "https://i.ibb.co.com/JwbwNqkN/supporting.png",
       number: 2700,
       label: "Patients"
     },
     {
       id: 4,
-      icon: "https://i.ibb.co.com/wZ6bwvjP/success-staffs.png",
+      icon: "https://i.ibb.co.com/Vc2mXL1q/team.png",
       number: 900,
       label: "Total Staffs"
     }
@@ -42,14 +42,14 @@ const SuccessSection = () => {
           {stats.map(({ id, icon, number, label }) => (
             <div
               key={id}
-              className="bg-gray-100 rounded-2xl shadow p-6 flex flex-col items-center"
+              className="bg-white rounded-2xl shadow p-6 flex flex-col items-start"
             >
               <img
                 src={icon}
                 alt={label}
                 className="w-12 h-12 object-contain mb-3"
               />
-              <h3 className="text-3xl font-bold text-gray-800">
+              <h3 className="text-3xl font-bold text-black">
                 <CountUp end={number} duration={2} />+
               </h3>
               <p className="text-gray-700 mt-1 text-sm font-medium">{label}</p>
