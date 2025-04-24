@@ -80,36 +80,82 @@ const DoctorDetails = () => {
       <br />
 
       {/* Doctor Details */}
-      <div className="bg-gray-200 rounded-3xl border p-8 flex flex-col md:flex-row items-center md:items-start gap-6 shadow-md sm:p-6">
-        <img
-          src={doctor.image}
-          alt={doctor.name}
-          className="w-52 h-52 sm:w-64 sm:h-64 object-cover rounded-xl shadow"
-        />
-        <div className="flex-1 text-center md:text-left">
-          <h3 className="text-xl sm:text-2xl font-bold mb-2">{doctor.name}</h3>
-          <p className="text-gray-600 mb-1">{doctor.education}</p>
-          <p className="mb-1"><strong>Speciality:</strong> {doctor.speciality}</p>
-          <p className="mb-1"><strong>Experience:</strong> {doctor.experience}</p>
-          <p className="mb-1"><strong>Reg No:</strong> {doctor.registration}</p>
-          <p className="mb-1"><strong>Working at:</strong> {doctor.work}</p>
-          <p className="mb-1"><strong>Availability:</strong> <span className="bg-green-200 p-2 rounded-2xl">{doctor.availliblity}</span></p>
-          <p className="mb-4"><strong>Fee:</strong> {doctor.fee}</p>
-        </div>
-      </div>
+      <div className="bg-white rounded-2xl shadow-sm p-6 flex flex-col md:flex-row gap-6 items-center md:items-start w-full">
+  <img
+    src={doctor.image}
+    alt={doctor.name}
+    className="w-64 h-64 object-cover rounded-2xl shadow"
+  />
+
+  <div className="flex-1 text-center md:text-left">
+    <h3 className="text-2xl font-bold mb-2">{doctor.name}</h3>
+
+    <p className="text-gray-700 mb-2">{doctor.education}</p>
+
+    <p className="mb-2 text-gray-800 font-medium">
+      Working At <br />
+      <span className="font-bold">{doctor.work}</span>
+    </p>
+
+    <div className="flex items-center justify-center md:justify-start text-gray-600 text-sm gap-1 mb-4 border-t border-dashed pt-4">
+      <span>Ⓡ</span>
+      <span>Reg No : {doctor.registration}</span>
+    </div>
+
+    <p className="font-semibold mb-1">Availability</p>
+    <div className="flex flex-wrap gap-2 justify-center md:justify-start mb-4">
+      {doctor.days?.map((day, index) => (
+        <span
+          key={index}
+          className="bg-yellow-100 text-gray-700 text-sm px-4 py-1 rounded-full"
+        >
+          {day}
+        </span>
+      ))}
+    </div>
+
+    <p className="text-sm text-gray-700">
+      Consultation Fee:{" "}
+      <span className="text-blue-600 font-semibold">
+        Taka : {doctor.fee}
+      </span>{" "}
+      (incl. Vat)
+      <a href="#" className="text-blue-500 ml-1">
+        Per consultation
+      </a>
+    </p>
+  </div>
+</div>
+
 
       <br />
 
       {/* Booking */}
-      <div className="bg-gray-200 rounded-3xl border p-8 flex flex-col items-center gap-4 shadow-md sm:p-6">
-        <h3 className="text-xl sm:text-2xl font-bold mb-4 text-center">Book an Appointment</h3>
-        <button
-          onClick={handleBooking}
-          className="w-full px-6 py-2 bg-blue-600 text-white rounded-3xl hover:bg-blue-700 transition"
-        >
-          Book Now
-        </button>
-      </div>
+      <div className="bg-white p-6 rounded-2xl shadow-sm w-full">
+  <h2 className="text-center text-xl font-bold mb-4">Book an Appointment</h2>
+
+  <div className="border-t border-dashed pt-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-4">
+    <p className="font-medium text-gray-800">Availability</p>
+    <span className="bg-green-100 text-green-600 px-4 py-1 rounded-full text-sm font-semibold">
+      Doctor Available Today
+    </span>
+  </div>
+
+  <div className="bg-yellow-100 text-yellow-800 text-sm flex items-center gap-2 px-4 py-3 rounded-xl mb-6">
+    <span className="text-lg">⚠️</span>
+    <span>
+      Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.
+    </span>
+  </div>
+
+  <button
+    onClick={handleBooking}
+    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-full text-center transition-all duration-200"
+  >
+    Book Appointment Now
+  </button>
+</div>
+
     </div>
   );
 };
