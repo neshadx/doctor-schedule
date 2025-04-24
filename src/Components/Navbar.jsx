@@ -14,8 +14,8 @@ const Navbar = () => {
         {/* Left: Logo */}
         <div className="flex items-center gap-2">
           <Link to="/" className="flex items-center gap-2 text-xl font-bold">
-            <img src={logo} alt="logo" className="w-8 h-8" />
-            Phudu
+            <img src={logo} alt="logo" className="w-9 h-9" />
+            MediMeet
           </Link>
         </div>
 

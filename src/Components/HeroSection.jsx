@@ -26,7 +26,7 @@ const HeroSection = () => {
             placeholder="Search any doctor..."
             className="w-full px-6 py-2 border-[#E7E9ED] rounded-full shadow outline-none bg-white"
           />
-          <button className="w-2xs bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full transition-all cursor-pointer">
+          <button className="w-2xs bg-blue-600 hover:bg-blue-700 text-white px-2 py-2 rounded-full transition-all cursor-pointer">
             Search Now
           </button>
         </div>
