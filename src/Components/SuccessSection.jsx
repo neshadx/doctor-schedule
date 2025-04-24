@@ -5,25 +5,25 @@ const SuccessSection = () => {
     {
       id: 1,
       icon: "https://i.ibb.co.com/r2nSFD2z/success-doctor.png",
-      number: 199,
+      number: 300,
       label: "Total Doctors"
     },
     {
       id: 2,
       icon: "https://i.ibb.co.com/zTSfMkqR/success-review.png",
-      number: 467,
+      number: 500,
       label: "Total Reviews"
     },
     {
       id: 3,
       icon: "https://i.ibb.co.com/fjS8PvL/success-patients.png",
-      number: 1900,
+      number: 2700,
       label: "Patients"
     },
     {
       id: 4,
       icon: "https://i.ibb.co.com/wZ6bwvjP/success-staffs.png",
-      number: 300,
+      number: 900,
       label: "Total Staffs"
     }
   ];

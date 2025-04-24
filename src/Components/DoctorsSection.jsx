@@ -54,7 +54,7 @@ const DoctorsSection = () => {
         <div className="flex justify-center mt-8">
           <button
             onClick={handleShowAll}
-            className="btn btn-primary rounded-3xl px-6 py-2 bg-blue-600 text-white hover:bg-blue-700 transition"
+            className="btn rounded-3xl px-6 py-2 bg-blue-600 text-white hover:bg-blue-700 transition"
           >
             View All Doctors
           </button>

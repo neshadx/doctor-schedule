@@ -148,7 +148,7 @@ const DoctorCard = ({ doctor }) => {
       <div className="mt-4 ml-2 mr-2">
         <button
           onClick={handleViewDetails}
-          className="w-full border border-blue-500 text-blue-600 font-medium py-2 rounded-full hover:bg-blue-50 transition"
+          className="w-full border border-blue-500 cursor-pointer text-blue-600 font-medium py-2 rounded-full hover:bg-blue-50 transition"
         >
           View Details
         </button>

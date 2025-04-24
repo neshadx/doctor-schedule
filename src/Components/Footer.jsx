@@ -5,6 +5,7 @@ import {
   FaXTwitter,
   FaLinkedinIn,
   FaYoutube,
+  FaGithub,
 } from "react-icons/fa6";
 
 const Footer = () => {
@@ -23,7 +24,7 @@ const Footer = () => {
           className="flex justify-center items-center gap-2 text-xl font-bold mb-4"
         >
           <img src={logo} alt="logo" className="w-6 h-6" />
-          Phudu
+          MediMeet
         </Link>
 
       
@@ -32,13 +33,13 @@ const Footer = () => {
             Home
           </NavLink>
           <NavLink to="/bookings" className={navLinkStyle}>
-            My-Bookings
+            Bookings
           </NavLink>
           <NavLink to="/blogs" className={navLinkStyle}>
             Blogs
           </NavLink>
           <NavLink to="/contact" className={navLinkStyle}>
-            Contact Us
+            Contact 
           </NavLink>
         </div>
 
@@ -47,16 +48,16 @@ const Footer = () => {
 
      
         <div className="flex justify-center gap-4 text-xl pb-10 flex-wrap">
-          <a href="https://facebook.com" target="_blank" rel="noreferrer">
-            <FaFacebookF className="text-blue-600 hover:scale-110 duration-200" />
+          <a href="https://neshadmahmud.com/" target="_blank" rel="noreferrer">
+            <FaGithub className="text-black-200 hover:scale-110 duration-200" />
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+          <a href="https://x.com/0xNeshad" target="_blank" rel="noreferrer">
             <FaXTwitter className="text-black hover:scale-110 duration-200" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+          <a href="https://neshad.com/" target="_blank" rel="noreferrer">
             <FaLinkedinIn className="text-sky-700 hover:scale-110 duration-200" />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noreferrer">
+          <a href="https://youtu.be/KEP1UP5GGeQ?si=7RXo3N6v3Cbzc02Y" target="_blank" rel="noreferrer">
             <FaYoutube className="text-red-600 hover:scale-110 duration-200" />
           </a>
         </div>

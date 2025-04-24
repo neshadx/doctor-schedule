@@ -25,19 +25,19 @@ const Navbar = () => {
             Home
           </NavLink>
           <NavLink to="/bookings" className={navLinkStyle}>
-            My-Bookings
+            Bookings
           </NavLink>
           <NavLink to="/blogs" className={navLinkStyle}>
             Blogs
           </NavLink>
           <NavLink to="/contact" className={navLinkStyle}>
-            Contact Us
+            Contact 
           </NavLink>
         </div>
 
        
         <div className="hidden lg:flex items-center">
-          <button className="btn btn-primary rounded-full px-6">
+          <button className="btn  bg-[#FF0000] text-white rounded-full px-6">
             Emergency
           </button>
         </div>
