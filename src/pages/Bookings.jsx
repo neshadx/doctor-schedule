@@ -143,7 +143,7 @@ const Bookings = () => {
           {/* Heading + Subtitle (After Chart) */}
           <div className="text-center mb-8">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              My Today Appointments
+              My Today's Appointment
             </h2>
             <p className="mt-2 text-gray-600 font-medium max-w-xl mx-auto text-sm sm:text-base">
               Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.
