@@ -3,10 +3,11 @@ import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const navLinkStyle = ({ isActive }) =>
-    isActive
-      ? "text-primary underline font-semibold"
-      : "hover:text-primary";
-
+    `relative px-2 py-2 ${
+    isActive 
+      ? "relative text-black font-bold lg:after:content-[''] lg:after:absolute lg:after:left-0 lg:after:bottom-0 lg:after:w-full lg:after:h-[3px] lg:after:bg-black lg:after:scale-x-125 lg:after:origin-center"
+      : "relative text-black hover:bg-[#e0e0e0] hover:rounded-md px-3 py-1 "
+  }`
   return (
     <div className="bg-[#E7E9ED]">
       <div className="navbar max-w-7xl mx-auto px-4 relative justify-between">
