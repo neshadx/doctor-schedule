@@ -19,7 +19,7 @@ function Blogs() {
   },[])
   return (
     <>
-          <div className="bg-gray-200 rounded-3xl border m-8"><h3 className="text-4xl mt-20 text-center font-extrabold">Blogs</h3>
+          <div className="bg-gray-200 rounded-3xl m-8"><h3 className="text-4xl mt-20 text-center font-extrabold">Blogs</h3>
           <p className="mx-auto text-center my-8">
             Let's explore some basic concept that will make you a good developer
           </p></div>

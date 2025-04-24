@@ -17,11 +17,16 @@
   {
     "date": "2025-02-28",
     "question": "Difference between controlled and uncontrolled components? Which one is better?",
-    "answer": "Controlled components are React components where form data is handled by state. Uncontrolled components store their own state internally using refs. Controlled components are generally better for managing complex forms as they give more control over the form state."
+    "answer": "Controlled components are React components where form input values are tied to state and updated via event handlers. Uncontrolled components use refs to access values directly from the DOM. Controlled is better when you need full control over form data and validation."
   },
   {
     "date": "2025-04-17",
     "question": "Tell us something about useFormStatus() (explore and explain)",
-    "answer": "useFormStatus is a React hook available in React Server Components (like in Next.js App Router). It gives real-time status of form submissions such as pending, success, or error states. It's useful for managing UI feedback during asynchronous form submissions."
+    "answer": "useFormStatus is a specialized hook in React Server Components that provides real-time updates about a form's submission status. It's useful for rendering UI changes like disabling buttons or showing loaders during async form actions."
+  },
+  {
+    "date": "2025-04-23",
+    "question": "What is the difference between useMemo and useCallback in React?",
+    "answer": "useMemo returns a cached value from a computation, while useCallback returns a cached function instance. useMemo is ideal for optimizing calculations; useCallback prevents unnecessary function recreations in child components relying on referential equality."
   }
 ]
