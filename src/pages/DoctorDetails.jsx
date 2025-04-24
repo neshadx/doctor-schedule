@@ -68,14 +68,28 @@ const DoctorDetails = () => {
   return (
     <div className="max-w-5xl mx-auto p-4 sm:p-6 md:p-8">
       {/* Profile Summary */}
-      <div className="bg-gray-200 rounded-3xl border p-8">
-        <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center">
-          Doctor’s Profile Details
-        </h2>
-        <p>
-          Driven by compassion in every act of care, guided by precision in every step of treatment.
-        </p>
-      </div>
+      <div className="bg-gray-100 rounded-3xl p-10 text-center shadow-sm">
+  <h2 className="text-3xl font-extrabold mb-4 text-gray-900">
+    Doctor’s Profile Details
+  </h2>
+  <p className="text-gray-700 max-w-3xl mx-auto text-base sm:text-lg">
+    Get to know your doctor before your appointment. View detailed profiles including qualifications, specialties, experience, patient reviews, and consultation availability — all in one place. We believe informed choices lead to better care.
+  </p>
+  <div className="mt-6 flex justify-center">
+    <div className="animate-bounce">
+      <svg
+        className="w-6 h-6 text-gray-600"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        viewBox="0 0 24 24"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+      </svg>
+    </div>
+  </div>
+</div>
+
 
       <br />
 
