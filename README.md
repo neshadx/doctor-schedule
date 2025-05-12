@@ -1,4 +1,4 @@
-# 🩺 MediMeet – Doctor Schedule & Appointment Platform
+# 🩺 MediMeet — Trusted Doctor Booking Platform
 
 **MediMeet** is a responsive and modern web application built with **React 19** and **Tailwind CSS 4**, designed to help users find, search, and book verified doctors from various medical specialties.
 
@@ -6,7 +6,7 @@
 
 ## 🚀 Live Preview
 
-🔗 [View Live App] ()
+🔗 [View Live App](https://doctor-schedule-delta.vercel.app/)
 
 ---
 
