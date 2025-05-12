@@ -1,12 +1,46 @@
-# React + Vite
+# 🩺 MediMeet – Doctor Schedule & Appointment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MediMeet** is a responsive and modern web application built with **React 19** and **Tailwind CSS 4**, designed to help users find, search, and book verified doctors from various medical specialties.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Preview
 
-## Expanding the ESLint configuration
+🔗 [View Live App] ()
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 👩‍⚕️ Doctor Profiles with specialization & experience
+- 📅 Appointment booking-ready design
+- 🔍 Doctor search functionality
+- 📊 Dynamic counters (doctors, reviews, patients, staff)
+- 🌐 Fully responsive and mobile-optimized
+- 💅 Styled with Tailwind CSS & DaisyUI
+- 📦 Lightning-fast using **Vite**
+
+---
+
+## 🛠️ Tech Stack
+
+- [React 19](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
+- [React Router v7](https://reactrouter.com/)
+- [Recharts](https://recharts.org/)
+- [React Toastify + Hot Toast](https://react-hot-toast.com/)
+
+---
+
+
+
+## 🛠️ Installation & Running Locally
+
+```bash
+
+npm install
+
+npm run dev
+
